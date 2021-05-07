@@ -1,8 +1,8 @@
 import React from "react";
-import Fun from './images/fun.png';
+
 
 const ImageCard = ({imagesFolder}) => {
-  const {webformatURL, user, views, downloads, likes, id  } = imagesFolder;
+  const {webformatURL, user, views, downloads, likes  } = imagesFolder;
   const tags = imagesFolder.tags.split(',');
   return (
     <div className="max-w-sm overflow-hidden rounded shadow-lg ">
